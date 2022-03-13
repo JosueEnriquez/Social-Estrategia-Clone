@@ -5,23 +5,21 @@
   /*!---------------Colores---------------*/
 }
 
-.body{
-
-  
-
-}
 .patners__head__title,
 .partners__head__description{
   letter-spacing: 2px;
   margin: 0;
 }
 .partners{
-  padding: 2rem 0;
   background: linear-gradient(90deg, rgba(49,114,228,0.9885550786838341) 3%, rgba(10,241,255,1) 61%, rgba(7,69,152,1) 100%, rgba(0,212,255,1) 100%);
- 
+  position: relative;
+}
+.partners__weve{
+  fill: #fff;
 }
 .partners-container{
-  padding: 0 2rem;
+  top: 0;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,6 +66,7 @@
 .costomers-list__item-logo-partner{
   opacity: 0.6;
 }
+
 @media(min-width:850px){
   .partners__head,
   .partners__costomers{
