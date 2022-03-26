@@ -209,3 +209,223 @@
    
   }
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+}
+
+
+.footer {
+  background: linear-gradient(90deg, rgba(49,114,228,0.9885550786838341) 3%, rgba(10,241,255,1) 61%, rgba(7,69,152,1) 100%, rgba(0,212,255,1) 100%);
+  display:flexbox;
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url(./Images/wavef.png);
+  background-size: cover;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;  
+  padding: 20px;
+  
+  /*background-color: #d0f0f8;
+  -webkit-mask-image: url("./Images/background-footer.svg");
+  mask-image: url("./Images/background-footer.svg");
+  -webkit-mask-size: cover;
+  mask-size: cover;*/
+
+}
+
+.call {
+  display: flexbox;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.call_title {
+  font-size: 120px;
+  font-weight: 800;
+
+}
+
+.call__description {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+
+
+
+.button {
+background-color: #ffff;
+border: 0;
+border-radius: 56px;
+color: rgb(117, 117, 117);
+cursor: pointer;
+display: inline-block;
+font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+font-size: 18px;
+font-weight: 600;
+outline: 0;
+padding: 10px 60px;
+position: relative;
+text-align: center;
+text-decoration: none;
+transition: all .3s;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+letter-spacing: 2px;
+
+}
+
+.button:before {
+background-color: initial;
+background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+border-radius: 125px;
+content: "";
+height: 50%;
+left: 4%;
+opacity: .5;
+position: absolute;
+top: 0;
+transition: all .3s;
+width: 92%;
+}
+
+.button:hover {
+box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+transform: scale(1.05);
+}
+
+
+.container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.parts__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.parts__footer .logo img {
+  width: 150px;
+}
+
+.parts__footer .terms {
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+
+.parts__footer h2 {
+  margin-bottom: 30px;
+  color: #343434;
+  font-weight: 700;
+}
+
+.parts__footer a {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+
+.parts__footer a:hover {
+  opacity: 0.8;
+}
+
+.parts__footer a .fab {
+  font-size: 20px;
+}
+
+.page__section {
+  size: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  word-spacing: 30px;
+  
+}
+
+.page__options {
+  display: inline;
+  word-spacing: 10px;
+}
+
+
+
+
+.pages_link {
+  max-width: 1200px;
+  text-decoration: none;
+  display: inline;
+  margin: auto;
+  text-align: center;
+ 
+
+}
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+.button i {
+  font-size: 30px;
+  padding-right: 5px;
+}
+
+.final-container{
+  position: absolute;
+  width: 100%;  
+  background: #333340;
+ 
+}
+
+
+.copyright{
+  color: #fff;
+}
+
+.copyright a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.information a{
+  text-decoration: none;
+  color: #C7C7C7;
+}
+
+@media (min-width: 768px) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+}
